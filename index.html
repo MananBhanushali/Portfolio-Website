@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Dev Course</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img
+          src="/images/Vector Images/40s50s60sNovelties_TalkingHand_-removebg-preview.png"
+          alt="Bomb Boy Logo"
+          class="logo"
+        />
+        <nav>
+          <a href="#" class="hide-desktop"
+            ><img
+              src="/images/Vector Images/noun_Hamburger_2767605(copy).png"
+              alt="toggle menu"
+              class="menu"
+              id="menu"
+          /></a>
+          <ul class="show-desktop hide-mobile" id="nav">
+            <li id="exit" class="exit-btn hide-desktop">
+              <img
+                src="/images/Vector Images/noun_Exit_2392147(copy).png"
+                alt="exit button"
+              />
+            </li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section>
+        <img
+          src="/images/Vector Images/50s60s-Crowd(copy).jpg"
+          alt="crowd graphic"
+          class="crowd"
+        />
+        <h1>
+          Front End Developer - Video Editor - Student
+        </h1>
+        <p class="subhead">At your service.</p>
+        <img
+          src="/images/Vector Images/noun_scroll_down_1442944(copy).png"
+          alt="scroll down"
+          class="scroll hide-mobile show-desktop"
+        />
+      </section>
+    </div>
+    <div class="blue-container">
+      <div class="container">
+        <ul>
+          <li>
+            <img
+              src="/images/Vector Images/40s50s60sNovelties(guysgoingwow).jpg"
+              alt="Guys going wow"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              molestiae ducimus voluptatibus beatae similique. Quos deleniti
+              voluptates odit sint quasi necessitatibus nemo, ipsa, atque omnis
+              adipisci laboriosam nisi quibusdam sed!
+            </p>
+          </li>
+          <li>
+            <img
+              src="/images/Vector Images/40s50s60sNovelties(footinbox).jpg"
+              alt="Guys going wow"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              molestiae ducimus voluptatibus beatae similique. Quos deleniti
+              voluptates odit sint quasi necessitatibus nemo, ipsa, atque omnis
+              adipisci laboriosam nisi quibusdam sed!
+            </p>
+          </li>
+          <li>
+            <img
+              src="/images/Vector Images/50s60sbadges(QualityAssured).jpg"
+              alt="Guys going wow"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              molestiae ducimus voluptatibus beatae similique. Quos deleniti
+              voluptates odit sint quasi necessitatibus nemo, ipsa, atque omnis
+              adipisci laboriosam nisi quibusdam sed!
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="gray-container">
+      <div class="container">
+        <ul>
+          <li>
+            <figure>
+              <img
+                src="/images/Vector Images/50s60s-Crowd(copy).jpg"
+                alt="Crowd again"
+              />
+              <blockquote>Damn, Alexander's services are amazing!</blockquote>
+              <figcaption>- James Grattan</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="/images/Vector Images/50s60s-Crowd(copy).jpg"
+                alt="Crowd again"
+              />
+              <blockquote>Damn, Alexander's services are radical!</blockquote>
+              <figcaption>- Mary Alice Grattan</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="/images/Vector Images/50s60s-Crowd(copy).jpg"
+                alt="Crowd again"
+              />
+              <blockquote>Damn, Alexander's services are superb!</blockquote>
+              <figcaption>- Hazel</figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <h2>
+        Start your free trail with me now! <br />
+        No money-back gurantee!
+      </h2>
+      <a href="#" class="cta">Call Me Sometime </a>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="container">
+          <a href="#">
+            <img
+              src="/images/Vector Images/40s50s60sNovelties_TalkingHand_-removebg-preview.png"
+              class="logo"
+              alt="logo"
+            />
+          </a>
+          <p class="address">Pittsburgh PA 15216<br />USA</p>
+          <ul class="footer-links">
+            <li>
+              <a href="#">Terms of Service</a>
+            </li>
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      var menu = document.getElementById("menu");
+      var nav = document.getElementById("nav");
+      var exit = document.getElementById("exit");
+
+      menu.addEventListener("click", function(e) {
+        nav.classList.toggle("hide-mobile");
+        e.preventDefault();
+      });
+
+      exit.addEventListener("click", function(e) {
+        nav.classList.add("hide-mobile");
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
