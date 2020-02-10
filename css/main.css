@@ -21,7 +21,7 @@ ul {
 }
 
 .logo {
-  max-width: 10%;
+  width: 10%;
 }
 
 header {
@@ -44,7 +44,7 @@ header {
 
 .crowd {
   width: 40%;
-  margin: 0 auto 2.5em auto;
+  margin: auto auto 2.5em auto;
   border-radius: 50%;
 }
 
