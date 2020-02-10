@@ -22,7 +22,8 @@ ul {
 
 .logo {
   margin-right: 0;
-  width: 40px;
+  width: 10%;
+  object-fit: cover;
 }
 
 header {
@@ -211,7 +212,6 @@ nav ul li a:hover{
   .logo{
     max-width: 10%;
     max-height: 10%;
-    object-fit: cover;
   }
 }
 
