@@ -211,8 +211,7 @@ nav ul li a:hover{
   .logo{
     max-width: 10%;
     max-height: 10%;
-    margin-right: 0;
-    padding-right: 1.1em;
+    object-fit: cover;
   }
 }
 
