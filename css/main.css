@@ -45,6 +45,7 @@ header {
 .crowd {
   width: 40%;
   margin: auto auto 2.5em auto;
+  border-radius: 50%;
 }
 
 .blackandwhite {
