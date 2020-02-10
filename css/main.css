@@ -22,7 +22,7 @@ ul {
 
 .logo {
   margin-right: 0;
-  width: 5em;
+  width: 40px;
 }
 
 header {
@@ -210,6 +210,11 @@ nav ul li a:hover{
  .crowd {
   width: 30%;
  }
+
+ .logo {
+   width: 60px;
+ }
+ 
  h1 {
   font-size: 3em;
   margin: 0;
