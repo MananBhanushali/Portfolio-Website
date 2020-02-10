@@ -22,7 +22,6 @@ ul {
 
 .logo {
   max-width: 10%;
-  object-fit: cover;
 }
 
 header {
@@ -210,7 +209,6 @@ nav ul li a:hover{
   /* For mobile phones: */
   .logo{
     max-width: 10%;
-    height: 10%;
   }
 }
 
