@@ -21,7 +21,7 @@ ul {
 }
 
 .logo {
-  width: 85px;
+  width: 80px;
 }
 
 header {
@@ -198,6 +198,11 @@ nav ul li a:hover{
  cursor: pointer;
 }
 
+.social-logos {
+  width: 10%;
+  margin: 0 .5em 0 .5em;
+}
+
 @media only screen and (min-width: 650px){
  .crowd {
   width: 40%;
@@ -247,10 +252,6 @@ nav ul li a:hover{
  }
 }
 
-.social-logos {
-  width: 10%;
-  margin: 0 .5em 0 .5em;
-}
 @media only screen and (min-width: 875px) {
  .subhead {
   margin-bottom: 15%;
