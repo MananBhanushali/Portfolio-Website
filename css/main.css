@@ -21,7 +21,7 @@ ul {
 }
 
 .logo {
-  width: 80px;
+  width: 60px;
 }
 
 header {
@@ -43,8 +43,9 @@ header {
 }
 
 .crowd {
-  width: 60%;
-  margin: auto;
+  width: 40%;
+  margin: auto auto 2.5em auto;
+  border-radius: 50%;
 }
 
 h1,
@@ -164,7 +165,7 @@ ul.footer-links li a{
 
 nav ul{
  position: fixed;
- width: 60%;
+ width: 40%;
  top: 0;
  right: 0;
  text-align: left;
@@ -174,13 +175,14 @@ nav ul{
  padding-top: 3em;
 }
 
+
 nav ul li a{
  color: white;
  text-decoration: none;
  display: block;
  width: 100%;
- padding: 1em 2em;
  background-color: grey;
+ padding: 1em 2em;
 }
 
 nav ul li a:hover{
@@ -190,7 +192,7 @@ nav ul li a:hover{
 .exit-btn{
  margin-bottom: 1em;
  margin-top: -1.3em;
- text-align: right;
+ padding: 1em 2em;
 }
 
 .exit-btn img{
@@ -205,7 +207,7 @@ nav ul li a:hover{
 
 @media only screen and (min-width: 650px){
  .crowd {
-  width: 40%;
+  width: 30%;
  }
  h1 {
   font-size: 3em;
@@ -278,7 +280,7 @@ nav ul li a:hover{
 
  .show-desktop {
   display: block;
-  margin: 0 auto 13% auto;
+  margin: 0 auto 2% auto;
  }
 
  .hide-desktop {
@@ -301,7 +303,7 @@ nav ul li a:hover{
  nav ul li a {
   color: black;
   background-color: inherit;
-  text-align: right;
+  text-align: center;
   padding: 1em 2em;
  }
 
@@ -326,7 +328,7 @@ nav ul li a:hover{
 
 @media only screen and (min-width: 1600px) {
  .crowd {
-  width: 40%;
+  width: 30%;
  }
 
  .container {
