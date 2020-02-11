@@ -213,6 +213,7 @@ nav ul li a:hover{
   /* For mobile phones: */
   .logo{
     max-width: 20px;
+    padding: -1em;
   }
 }
 
