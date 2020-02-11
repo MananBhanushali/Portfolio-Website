@@ -212,8 +212,7 @@ nav ul li a:hover{
 @media only screen and (max-width:620px) {
   /* For mobile phones: */
   .logo{
-    max-width: 20px;
-    padding: -1em;
+    width: 0em;
   }
 }
 
