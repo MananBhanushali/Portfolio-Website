@@ -61,7 +61,7 @@ h1,
 .subhead {
   position: relative;
   z-index: 3;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .subhead {
@@ -258,6 +258,10 @@ nav ul li a:hover {
   /* For mobile phones: */
   .top-logo {
     display: none;
+  }
+
+  .work-thumbnails {
+    width: 300px;
   }
 }
 
