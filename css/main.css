@@ -144,7 +144,7 @@ h1,
 }
 
 .gray-container ul li {
-  margin: 0 3em;
+  margin: 0 3em 3em;
 }
 
 .work-thumbnails {
@@ -173,8 +173,18 @@ h2 {
   margin-top: 7%;
 }
 
+h3 {
+  font-size: 1.6em;
+}
+
 .skills {
   font-size: 1.2em;
+}
+
+.specific-skills {
+  font-weight: bold;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .cta {
@@ -311,10 +321,6 @@ nav ul li a:hover {
     padding: 0 0.8em;
   }
 
-  .gray-container ul {
-    display: flex;
-  }
-
   .gray-container img {
     width: 70%;
   }
@@ -345,6 +351,10 @@ nav ul li a:hover {
 @media only screen and (min-width: 1024px) {
   .cta {
     width: 50%;
+  }
+
+  .gray-container ul {
+    display: flex;
   }
 
   .container {
