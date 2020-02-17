@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: "MontSerrat", Tahoma, Geneva, Verdana, sans-serif;
@@ -69,7 +73,10 @@ h1,
 .subhead {
   position: relative;
   z-index: 3;
-  font-size: 1.5em;
+}
+
+h1 {
+  font-size: 2em;
 }
 
 .subhead {
@@ -148,7 +155,8 @@ h1,
 }
 
 .work-thumbnails {
-  width: 350px;
+  width: 300px;
+  text-align: center;
 }
 
 figure {
@@ -159,14 +167,9 @@ figure {
 figcaption {
   font-weight: bold;
   font-size: 20px;
-  z-index: -1;
-  opacity: 0;
+  z-index: 1;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
-}
-
-.blue-container figure:hover figcaption {
-  opacity: 100;
 }
 
 h2 {
@@ -272,10 +275,6 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
-.social-logos text {
-  color: black;
-}
-
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
   .top-logo {
@@ -332,7 +331,7 @@ nav ul li a:hover {
 
 @media only screen and (min-width: 875px) {
   .subhead {
-    margin-bottom: 8%;
+    margin-bottom: 5%;
   }
 
   .logo {
