@@ -55,7 +55,7 @@ header {
 }
 
 .profile figure img {
-  width: 40%;
+  width: 30%;
   margin: auto auto 1em auto;
   border-radius: 50%;
   -webkit-filter: grayscale(100%) drop-shadow(0 0 0.75rem black);
@@ -198,7 +198,7 @@ h3 {
   border-radius: 20px;
   padding: 0.5em;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.1em;
   margin: 1% auto 7%;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
@@ -350,6 +350,7 @@ nav ul li a:hover {
 @media only screen and (min-width: 1024px) {
   .cta {
     width: 50%;
+    font-size: 1.5em;
   }
 
   .gray-container ul {
@@ -425,7 +426,7 @@ nav ul li a:hover {
   }
 
   .profile figure img {
-    width: 30%;
+    width: 20%;
     margin: auto auto 1.5em auto;
   }
 
