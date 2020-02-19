@@ -362,14 +362,14 @@ textarea.message-form {
   color: #fff;
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 650px) {
   /* For mobile phones: */
   .top-logo {
     display: none;
   }
 
   .work-thumbnails {
-    width: 300px;
+    max-width: 80%;
   }
 
   /*contact-form CSS*/
@@ -378,6 +378,10 @@ textarea.message-form {
 @media only screen and (min-width: 650px) {
   .crowd {
     width: 30%;
+  }
+
+  .top-logo {
+    display: none;
   }
 
   .logo {
@@ -396,6 +400,10 @@ textarea.message-form {
   .subhead {
     font-size: 1.4em;
     margin-bottom: 5%;
+  }
+
+  .cta {
+    margin-bottom: 10%;
   }
 
   .work-container {
@@ -425,6 +433,10 @@ textarea.message-form {
 @media only screen and (min-width: 875px) {
   .subhead {
     margin-bottom: 5%;
+  }
+
+  .top-logo {
+    display: flex;
   }
 
   .logo {
