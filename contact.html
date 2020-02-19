@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - Alexander Grattan Portfolio</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="index.html"
+          ><img
+            src="./images/VectorImages/AG__1_-removebg-preview.png"
+            alt="Logo"
+            class="logo"
+        /></a>
+        <nav>
+          <a href="#" class="hide-desktop"
+            ><img
+              src="./images/VectorImages/noun_Hamburger_2767605_copy.png"
+              alt="toggle menu"
+              class="menu"
+              id="menu"
+          /></a>
+          <ul class="show-desktop hide-mobile" id="nav">
+            <li id="exit" class="exit-btn hide-desktop">
+              <img
+                src="./images/VectorImages/noun_Exit_2392147_copy.png"
+                alt="exit button"
+              />
+            </li>
+            <li><a href="index.html">home</a></li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCNrGfedaCv-EPulchlTwtrQ"
+                >videos</a
+              >
+            </li>
+            <li><a href="contact.html">contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="contact-section">
+        <h1>
+          Contact Me
+        </h1>
+        <div class="border"></div>
+        <form
+          class="contact-form"
+          action="<?= $_SERVER['mail.php']; ?>"
+          method="POST"
+        >
+          <input
+            type="text"
+            name="name"
+            class="name-form"
+            placeholder="Your Name"
+          />
+          <input
+            type="email"
+            name="mail"
+            class="email-form"
+            placeholder="Your Email"
+          />
+          <textarea
+            placeholder="Message"
+            name="message"
+            class="message-form"
+            rows="1"
+          ></textarea>
+          <button type="submit" name="submit" class="contact-form-btn">
+            Get in touch
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script>
+      var menu = document.getElementById("menu");
+      var nav = document.getElementById("nav");
+      var exit = document.getElementById("exit");
+
+      menu.addEventListener("click", function(e) {
+        nav.classList.toggle("hide-mobile");
+        e.preventDefault();
+      });
+
+      exit.addEventListener("click", function(e) {
+        nav.classList.add("hide-mobile");
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>

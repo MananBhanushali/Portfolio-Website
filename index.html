@@ -10,12 +10,12 @@
   <body>
     <div class="container">
       <header>
-        <img
-          src="./images/VectorImages/AG__1_-removebg-preview.png"
-          alt="Logo"
-          class="logo top-logo"
-        />
+        <!--Top-Left Corner Logo-->
+        <a href="index.html"><img src="./images/VectorImages/AG__1_-removebg-preview.png" alt="Logo" class="logo top-logo" /></a>
+        <!--Invisible button-->
+        <button class="invisible-button"></button>
         <nav>
+          <!--Hamburger Menu-->
           <a href="#" class="hide-desktop"
             ><img
               src="./images/VectorImages/noun_Hamburger_2767605_copy.png"
@@ -23,6 +23,7 @@
               class="menu"
               id="menu"
           /></a>
+          <!--Exit Button-->
           <ul class="show-desktop hide-mobile" id="nav">
             <li id="exit" class="exit-btn hide-desktop">
               <img
@@ -30,24 +31,29 @@
                 alt="exit button"
               />
             </li>
+            <!--Links to other pages-->
             <li><a href="index.html">home</a></li>
-            <li><a href="about.html">about</a></li>
-            <li><a href="#">contact</a></li>
+            <li><a href="https://www.youtube.com/channel/UCNrGfedaCv-EPulchlTwtrQ" target="_blank">videos</a></li>
+            <li><a href="contact.html">contact</a></li>
           </ul>
         </nav>
       </header>
+      <!--Profile Picture-->
       <section class="profile">
-        <figure><a href="https://www.linkedin.com/in/alexander-grattan-11a187149/" target="_blank"><img src="./images/IMG_20191218_111749_052.jpg" alt="profile pic" />
+        <figure><a href="https://www.linkedin.com/in/alexander-grattan-11a187149/" target="_blank"><img src="./images/VectorImages/noun_coffee drinker_2937161_copy.png" alt="profile pic" />
         </a></figure>
         <h1>
           Hello there, <br> I'm Alexander Grattan
         </h1>
         <p class="subhead">Front End Developer - Video Editor - Student</p>
+        <!--Logos under Profile Picture-->
         <a href="https://www.linkedin.com/in/alexander-grattan-11a187149/" target="_blank"><i class="fab fa-linkedin fa-4x" style="margin-right: 5%; margin-bottom: 2%; color:black "></i><a />
        <a href="https://github.com/GameDog9988" target="_blank"><i class="fab fa-github fa-4x" style="font-size: 60px; margin-left: 5%; margin-bottom: 2%; color: black;"></i></a>
+        <!--Resume Button-->
         <div class="container">
           <a href="Alexander_Grattan_Resume.pdf" class="cta" download>Download my resume</a>
         </div>
+        <!--Jumping scroll down button-->
         <img
           src="./images/VectorImages/noun_scroll_down_1442944_copy.png"
           alt="scroll down"
@@ -55,11 +61,13 @@
         />
       </section>
     </div>
-    <div class="blue-container">
+    <!--My Work Section Container-->
+    <div class="work-container">
       <div class="container">
       <h1>My Work</h1>
       <ul>
         <li>
+          <!--Colonial Sports Network Website-->
           <figure>
             <a href="https://colonialsportsnetwork.com/" target="_blank"><img src="./images/VectorImages/CSN Homepage 2-11.png" alt="Colonial Sports Network Homepage" class="work-thumbnails" /></a>
             <br>
@@ -68,6 +76,7 @@
           </figure>
         </li>
         <li>
+          <!--Josie's Sweets and Treats Video-->
           <figure>
             <a href="https://www.youtube.com/watch?v=rdsVeGZSg3g" target="_blank"><img src="./images/Josie's Sweets and Treats Portfolio Picture.jpg" alt="Josie's Sweets and Treats"
               class="work-thumbnails" /></a>
@@ -77,6 +86,7 @@
           </figure>
         </li>
         <li>
+          <!--Lead in Water Short Film-->
           <figure>
             <a href="https://vimeo.com/250508536" target="_blank"><img src="./images/LeadInWater Portfolio Thumbnail.jpg" alt="Lead in Water" class="work-thumbnails" /></a>
             <br>
@@ -87,19 +97,23 @@
       </ul>
       </div>
     </div>
-    <div class="gray-container">
+    <!--Skills Container-->
+    <div class="skills-container">
       <div class="container">
         <ul>
+          <!--Front-End Development Skills-->
           <li>
             <i class="fas fa-laptop-code fa-6x"></i>
             <h3>Front-End Development</h3>
             <p class="skills">I self-taught myself multiple web development languages including <span class="specific-skills">HTML, CSS, and JavaScript</span>. I also am adept in working with <span class="specific-skills"">WordPress and Google Analytics</span>. I am currently learning the JavaScript library React.</p>
           </li>
+          <!--Video Editing Skills-->
           <li>
             <i class="fas fa-video fa-6x"></i>
             <h3>Video Editing</h3>
             <p class="skills">Through watching YouTube in high school, I learned how to <span class="specific-skills">effectively edit business videos and films</span>. My skills have grown and I currently know the ins-and-outs of <span class="specific-skills">DaVinci Resolve and Final Cut Pro X</span>.</p>
           </li>
+          <!--Student Information-->
           <li>
             <i class="fas fa-user-graduate fa-6x"></i>
             <h3>Student</h3>
@@ -108,6 +122,7 @@
         </ul>
       </div>
     </div>
+    <!--Footer Section-->
     <footer>
       <div class="footer-container">
         <div class="container">
@@ -136,7 +151,7 @@
         </div>
       </div>
     </footer>
-
+    <!--JavaScript for menus-->
     <script>
       var menu = document.getElementById("menu");
       var nav = document.getElementById("nav");
