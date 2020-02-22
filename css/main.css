@@ -40,15 +40,6 @@ i:hover {
 
 .logo {
   width: 10%;
-  -webkit-filter: drop-shadow(0 0 0.75rem black);
-  filter: drop-shadow(0 0 0.75rem black);
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-}
-
-.logo:hover {
-  -webkit-filter: drop-shadow(0 0 0 black);
-  filter: drop-shadow(0 0 0 black);
 }
 
 header {
@@ -73,16 +64,11 @@ header {
 .profile figure img {
   width: 40%;
   margin: auto auto 1em auto;
-  border-radius: 50%;
-  -webkit-filter: drop-shadow(0 0 0.75rem black);
-  filter: drop-shadow(0 0 0.75rem black);
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
 }
 
 .profile figure a:hover img {
-  -webkit-filter: drop-shadow(0 0 0rem black);
-  filter: drop-shadow(0 0 0rem black);
+  -webkit-filter: none;
+  filter: none;
 }
 
 h1,
@@ -101,7 +87,7 @@ h1 {
 
 .work-container {
   width: 100%;
-  background: #ebebeb;
+  background: gainsboro;
   margin-top: 15%;
   padding: 1em 0 2em;
   border-top-left-radius: 40px;
@@ -112,7 +98,7 @@ h1 {
   content: "";
   width: 40px;
   height: 40px;
-  background-color: #ebebeb;
+  background-color: gainsboro;
   position: absolute;
   top: -39px;
   right: 0;
@@ -157,8 +143,8 @@ h1 {
 }
 
 .work-container figure:hover img {
-  -webkit-filter: grayscale(0);
-  filter: grayscale(0) drop-shadow(0 0 0rem black);
+  -webkit-filter: none;
+  filter: none;
 }
 
 .skills-container {
@@ -207,7 +193,7 @@ h3 {
 }
 
 .cta {
-  background: #ebebeb;
+  background: gainsboro;
   width: calc(100% - 1em);
   display: block;
   color: black;
@@ -228,7 +214,7 @@ h3 {
 
 .footer-container {
   width: 100%;
-  background: #ebebeb;
+  background: gainsboro;
   padding: 1.8em 0;
 }
 
@@ -247,7 +233,7 @@ ul.footer-links li a {
 }
 
 .my-email p a {
-  color: gray;
+  color: black;
   text-decoration: none;
 }
 
@@ -261,7 +247,7 @@ nav ul {
   top: 0;
   right: 0;
   text-align: left;
-  background: grey;
+  background: gainsboro;
   height: 100%;
   z-index: 7;
   padding-top: 3em;
@@ -272,7 +258,7 @@ nav ul li a {
   text-decoration: none;
   display: block;
   width: 100%;
-  background-color: grey;
+  background-color: gainsboro;
   padding: 1em 2em;
 }
 
@@ -305,7 +291,7 @@ nav ul li a:hover {
 .border {
   width: 100px;
   height: 10px;
-  background: #ebebeb;
+  background: gainsboro;
   margin: 40px auto;
 }
 
@@ -328,6 +314,7 @@ nav ul li a:hover {
   padding: 20px 40px;
   outline: none;
   color: black;
+  font-family: montserrat;
   transition: 0.5s;
 }
 
@@ -345,8 +332,10 @@ textarea.message-form {
 .contact-form-btn {
   float: right;
   border: 0;
-  background: #ebebeb;
+  background: gainsboro;
   color: black;
+  font-family: montserrat;
+  font-weight: bold;
   padding: 12px 50px;
   border-radius: 20px;
   cursor: pointer;
@@ -410,7 +399,7 @@ textarea.message-form {
     margin: 0;
   }
 
-  .work-container img {
+  .work-thumbnails {
     width: 35%;
   }
 
@@ -483,6 +472,10 @@ textarea.message-form {
     align-items: center;
   }
 
+  .work-thumbnails {
+    max-width: 90%;
+  }
+
   nav ul {
     position: inherit;
     width: auto;
@@ -552,7 +545,7 @@ textarea.message-form {
     margin-top: 4em;
   }
 
-  .work-container img {
+  .work-thumbnails {
     width: 30%;
     margin-top: -4px;
   }
