@@ -4,7 +4,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "MontSerrat", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Montserrat", Tahoma, Geneva, Verdana, sans-serif;
   background-color: whitesmoke;
 }
 
@@ -66,10 +66,6 @@ header {
   margin: auto auto 1em auto;
 }
 
-.profile figure a:hover img {
-  -webkit-filter: none;
-  filter: none;
-}
 
 h1,
 .subhead {
@@ -147,6 +143,12 @@ h1 {
   filter: none;
 }
 
+.work-container figure:hover a:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
 .skills-container {
   padding: 4em 0 2em;
   margin-top: -3%;
@@ -166,12 +168,38 @@ figure {
   padding: 0;
 }
 
-figcaption {
+figcaption a {
+  position: relative;
+  text-decoration: none;
+  color: black;
   font-weight: bold;
   font-size: 20px;
-  z-index: 1;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
+}
+
+figcaption a:hover {
+  color: black;
+}
+
+figcaption a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0)
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  ;
+}
+
+figcaption a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 h2 {
@@ -228,7 +256,6 @@ ul.footer-links li {
 
 ul.footer-links li a {
   display: inline-block;
-  color: gray;
   font-size: 0.8em;
 }
 
@@ -447,6 +474,10 @@ textarea.message-form {
     font-size: 1.5em;
   }
 
+  .profile figure img {
+    width: 30%;
+  }
+
   .skills-container ul {
     display: flex;
   }
@@ -490,12 +521,13 @@ textarea.message-form {
   }
 
   nav ul li a {
+
     color: black;
     background-color: inherit;
     text-align: center;
     padding: 1em 2em;
-    -webkit-transition: 0.3s ease-in-out;
-    transition: 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
   }
 
   nav ul li a:hover {
