@@ -274,23 +274,23 @@ nav ul {
   top: 0;
   right: 0;
   text-align: left;
-  background: gainsboro;
+  background: silver;
   height: 100%;
   z-index: 7;
   padding-top: 3em;
 }
 
 nav ul li a {
-  color: whitesmoke;
+  color: white;
   text-decoration: none;
   display: block;
   width: 100%;
-  background-color: gainsboro;
+  background-color: silver;
   padding: 1em 2em;
 }
 
 nav ul li a:hover {
-  background-color: rgb(184, 178, 178);
+  background-color: black;
 }
 
 .exit-btn {
