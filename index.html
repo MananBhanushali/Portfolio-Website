@@ -25,7 +25,7 @@
               id="menu"
           /></a>
           <!--Exit Button-->
-          <ul class="show-desktop hide-mobile" id="nav">
+          <ul class="show-desktop hide-mobile animated slideInRight" id="nav">
             <li id="exit" class="exit-btn hide-desktop">
               <img
                 src="./images/VectorImages/noun_Exit_2392147_copy.png"
@@ -65,6 +65,8 @@
     <div class="work-container">
       <div class="container">
       <h1>My Work</h1>
+        <iframe style="border: none;" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FQjpJMpUYWl084gVsCXUXt2%2FCheckMyAid.com%3Fnode-id%3D0%253A1"
+        allowfullscreen></iframe>
       <ul>
         <li>
           <!--Colonial Sports Network Website-->
@@ -154,9 +156,9 @@
     </footer>
     <!--JavaScript for menus-->
     <script>
-      var menu = document.getElementById("menu");
-      var nav = document.getElementById("nav");
-      var exit = document.getElementById("exit");
+      let menu = document.getElementById("menu");
+      let nav = document.getElementById("nav");
+      let exit = document.getElementById("exit");
 
       menu.addEventListener("click", function(e) {
         nav.classList.toggle("hide-mobile");
@@ -164,7 +166,7 @@
       });
 
       exit.addEventListener("click", function(e) {
-        nav.classList.add("hide-mobile");
+        nav.classList.add("hide-mobile");   
         e.preventDefault();
       });
     </script>
