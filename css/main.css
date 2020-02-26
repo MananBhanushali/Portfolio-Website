@@ -24,7 +24,7 @@ i {
   transition: all 0.2s ease-in-out;
 }
 
-i:hover {
+.fa-github:hover,.fa-linkedin:hover {
   transform: scale(1.1);
 }
 
@@ -370,7 +370,6 @@ textarea.message-form {
   background: gainsboro;
   color: black;
   font-family: montserrat;
-  font-weight: bold;
   padding: 12px 50px;
   border-radius: 20px;
   cursor: pointer;
