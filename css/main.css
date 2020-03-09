@@ -63,8 +63,8 @@ header {
 }
 
 .profile figure img {
-  width: 40%;
-  margin: auto auto 1em auto;
+  width: 50%;
+  margin: auto auto .5em auto;
 }
 
 
@@ -500,14 +500,15 @@ textarea.message-form {
     max-width: 80%;
   }
 
+  .profile figure img {
+  width: 60%;
+  }
+
+
   /*contact-form CSS*/
 }
 
 @media only screen and (min-width: 650px) {
-  .crowd {
-    width: 30%;
-  }
-
   .top-logo {
     display: none;
   }
