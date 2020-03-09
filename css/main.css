@@ -75,11 +75,11 @@ h1,
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .subhead {
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .work-container {
@@ -504,6 +504,10 @@ textarea.message-form {
   width: 60%;
   }
 
+  .profile h1 {
+    margin-top: 5px;
+    font-size: ;
+  }
 
   /*contact-form CSS*/
 }
