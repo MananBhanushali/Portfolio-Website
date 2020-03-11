@@ -75,7 +75,7 @@ h1,
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 .subhead {
@@ -614,6 +614,14 @@ textarea.message-form {
 
   .hide-desktop {
     display: none;
+  }
+
+  h1 {
+    font-size: 4em;
+  }
+
+  .cta {
+    margin-bottom: 5%;
   }
 
   .work-container ul {
