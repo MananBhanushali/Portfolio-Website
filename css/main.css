@@ -295,6 +295,8 @@ nav ul li a {
   width: 100%;
   background-color: silver;
   padding: 1em 2em;
+  -webkit-transition: 0.3s ease-in-out 0s;
+  transition: 0.3s ease-in-out 0s;
 }
 
 nav ul li a:hover {
@@ -645,17 +647,16 @@ textarea.message-form {
   }
 
   nav ul li a {
-
     color: black;
     background-color: inherit;
     text-align: center;
     padding: 1em 2em;
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
+    box-sizing: content-box;
   }
 
   nav ul li a:hover {
     background-color: inherit;
+    font-size: 1.1em;
     font-weight: bold;
   }
 
