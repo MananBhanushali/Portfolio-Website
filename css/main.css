@@ -140,7 +140,7 @@ h1 {
 
 .work-container figure img {
   width: 350px;
-  margin-top: 3em;
+  margin-top: 1em;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
   filter: grayscale(100%) drop-shadow(0 0 0.75rem black);
@@ -166,10 +166,6 @@ h1 {
   margin: 0 3em 3em;
 }
 
-.work-thumbnails {
-  width: 300px;
-  text-align: center;
-}
 
 figure {
   margin: 0;
@@ -494,10 +490,6 @@ textarea.message-form {
     display: none;
   }
 
-  .work-thumbnails {
-    max-width: 80%;
-  }
-
   .work-container iframe {
     max-width: 80%;
   }
@@ -545,10 +537,6 @@ textarea.message-form {
     margin: 0;
   }
 
-  .work-thumbnails {
-    width: 35%;
-  }
-
   .work-container ul li {
     margin-bottom: 0;
   }
@@ -570,10 +558,6 @@ textarea.message-form {
     margin-bottom: 5%;
   }
 
-  .top-logo {
-    display: flex;
-  }
-
   .logo {
     width: 60px;
   }
@@ -588,6 +572,10 @@ textarea.message-form {
 }
 
 @media only screen and (min-width: 1024px) {
+  .top-logo {
+    display: flex;
+  }
+  
   .cta {
     width: 50%;
     font-size: 1.5em;
@@ -632,8 +620,8 @@ textarea.message-form {
     justify-content: center;
   }
 
-  .work-thumbnails {
-    max-width: 90%;
+  .work-container figure img {
+    width: 250px;
   }
 
   .work-container iframe {
@@ -697,6 +685,11 @@ textarea.message-form {
     padding: 2em 0 2em;
   }
 
+  .work-container figure img {
+    width: 350px;
+    margin-top: 2em;
+  }
+
   .work-container ul li p,
   blockquote {
     font-size: 1.3em;
@@ -710,8 +703,4 @@ textarea.message-form {
     margin-top: 4em;
   }
 
-  .work-thumbnails {
-    width: 30%;
-    margin-top: -4px;
-  }
 }
