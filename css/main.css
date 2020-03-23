@@ -24,7 +24,8 @@ i {
   transition: all 0.2s ease-in-out;
 }
 
-.fa-github:hover,.fa-linkedin:hover {
+.fa-github:hover,
+.fa-linkedin:hover {
   transform: scale(1.1);
 }
 
@@ -53,7 +54,6 @@ header {
   float: right;
 }
 
-
 .hide-mobile {
   display: none;
 }
@@ -64,9 +64,8 @@ header {
 
 .profile figure img {
   width: 50%;
-  margin: auto auto .5em auto;
+  margin: auto auto 0.5em auto;
 }
-
 
 h1,
 .subhead {
@@ -122,13 +121,6 @@ h1 {
   transform: skewY(2deg);
 }
 
-.work-container iframe {
-  transform: skewY(2deg);
-  margin-top: 2em;
-  width: 350px;
-  height: 200px;
-}
-
 .work-container ul li {
   margin-bottom: 3em;
   margin-left: auto;
@@ -151,12 +143,6 @@ h1 {
   filter: none;
 }
 
-.work-container figure:hover a:before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-}
-
 .skills-container {
   padding: 4em 0 2em;
   margin-top: -3%;
@@ -165,7 +151,6 @@ h1 {
 .skills-container ul li {
   margin: 0 3em 3em;
 }
-
 
 figure {
   margin: 0;
@@ -178,32 +163,6 @@ figcaption a {
   color: black;
   font-weight: bold;
   font-size: 20px;
-}
-
-figcaption a:hover {
-  color: black;
-}
-
-figcaption a:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: black;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0)
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-  ;
-}
-
-figcaption a:hover:before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
 }
 
 h2 {
@@ -390,17 +349,23 @@ textarea.message-form {
     transform: scale3d(1, 1, 1);
   }
 
-  10%, 20% {
+  10%,
+  20% {
     -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
     transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
   }
 
-  30%, 50%, 70%, 90% {
+  30%,
+  50%,
+  70%,
+  90% {
     -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
     transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
   }
 
-  40%, 60%, 80% {
+  40%,
+  60%,
+  80% {
     -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
     transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
   }
@@ -418,17 +383,23 @@ textarea.message-form {
     transform: scale3d(1, 1, 1);
   }
 
-  10%, 20% {
+  10%,
+  20% {
     -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
     transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
   }
 
-  30%, 50%, 70%, 90% {
+  30%,
+  50%,
+  70%,
+  90% {
     -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
     transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
   }
 
-  40%, 60%, 80% {
+  40%,
+  60%,
+  80% {
     -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
     transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
   }
@@ -475,7 +446,6 @@ textarea.message-form {
   animation-name: slideInRight;
 }
 
-
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -483,19 +453,14 @@ textarea.message-form {
   animation-fill-mode: both;
 }
 
-
 @media only screen and (max-width: 650px) {
   /* For mobile phones: */
   .top-logo {
     display: none;
   }
 
-  .work-container iframe {
-    max-width: 80%;
-  }
-
   .profile figure img {
-  width: 60%;
+    width: 60%;
   }
 
   .profile h1 {
@@ -575,7 +540,7 @@ textarea.message-form {
   .top-logo {
     display: flex;
   }
-  
+
   .cta {
     width: 50%;
     font-size: 1.5em;
@@ -622,11 +587,6 @@ textarea.message-form {
 
   .work-container figure img {
     width: 250px;
-  }
-
-  .work-container iframe {
-    width: 800px;
-    height: 450px;
   }
 
   nav ul {
@@ -702,5 +662,4 @@ textarea.message-form {
   h2 {
     margin-top: 4em;
   }
-
 }
