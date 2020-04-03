@@ -131,7 +131,7 @@ h1 {
 }
 
 .work-container figure img {
-  width: 350px;
+  width: 275px;
   margin-top: 1em;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
@@ -465,7 +465,7 @@ textarea.message-form {
 
   .profile h1 {
     margin-top: 5px;
-    font-size: ;
+    font-size: 1.8em;
   }
 
   /*contact-form CSS*/
