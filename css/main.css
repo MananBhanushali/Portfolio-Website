@@ -125,23 +125,29 @@ h1 {
   margin-bottom: 3em;
   margin-left: auto;
   margin-right: auto;
-}
-.work-container ul li {
   padding: 0 0.5em;
 }
 
 .work-container figure img {
   width: 275px;
   margin-top: 1em;
-  padding: 1em;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
-  filter: grayscale(100%) drop-shadow(0 0 0.75rem black);
+  filter: grayscale(0) blur(0);
+  border-radius: 10px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.042), 0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    0 100px 80px rgba(0, 0, 0, 0.07);
 }
 
 .work-container figure:hover img {
-  -webkit-filter: none;
-  filter: none;
+  transform: scale(1.1);
+  filter: grayscale(0) blur(0);
+}
+
+.work-list:hover figure:not(:hover) img {
+  filter: grayscale(100%) blur(5px);
 }
 
 .skills-container {
@@ -576,6 +582,7 @@ textarea.message-form {
 
   .work-container ul {
     display: flex;
+    flex-wrap: wrap;
     margin-top: -1em;
     padding: 1em;
     align-items: center;
