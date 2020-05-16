@@ -9,6 +9,10 @@
       rel="icon"
       href="./images/VectorImages/noun_coffee drinker_2937161_copy.png"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
@@ -84,12 +88,12 @@
       var nav = document.getElementById("nav");
       var exit = document.getElementById("exit");
 
-      menu.addEventListener("click", function(e) {
+      menu.addEventListener("click", function (e) {
         nav.classList.toggle("hide-mobile");
         e.preventDefault();
       });
 
-      exit.addEventListener("click", function(e) {
+      exit.addEventListener("click", function (e) {
         nav.classList.add("hide-mobile");
         e.preventDefault();
       });
