@@ -40,7 +40,7 @@ i {
 }
 
 .logo {
-  width: 10%;
+  width: 100px;
 }
 
 header {
@@ -74,11 +74,17 @@ h1,
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.5em;
+}
+
+.profile h1 {
+  margin-top: 5px;
+  font-size: 2.5em;
+  font-weight: bold;
 }
 
 .subhead {
-  font-size: 1em;
+  margin-bottom: 2em;
 }
 
 .work-container {
@@ -169,7 +175,7 @@ figcaption a {
   text-decoration: none;
   color: black;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 h2 {
@@ -181,7 +187,7 @@ h3 {
 }
 
 .skills {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .specific-skills {
@@ -214,6 +220,10 @@ h3 {
   width: 100%;
   background: gainsboro;
   padding: 1.8em 0;
+}
+
+.my-email p:nth-child(1) {
+  margin-top: 0;
 }
 
 ul.footer-links {
@@ -464,11 +474,6 @@ textarea.message-form {
   /* For mobile phones: */
   .top-logo {
     display: none;
-  }
-
-  .profile h1 {
-    margin-top: 5px;
-    font-size: 1.8em;
   }
 
   /*contact-form CSS*/
