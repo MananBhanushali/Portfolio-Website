@@ -24,6 +24,15 @@ i {
   transition: all 0.2s ease-in-out;
 }
 
+.fa-github,
+.fa-linkedin {
+  font-size: 50px;
+  margin: auto;
+  padding: 0 0.5em;
+  margin-bottom: 2%;
+  color: black;
+}
+
 .fa-github:hover,
 .fa-linkedin:hover {
   transform: scale(1.1);
@@ -80,11 +89,19 @@ h1 {
 .profile h1 {
   margin-top: 5px;
   font-size: 2.5em;
-  font-weight: bold;
+  font-family: "Comfortaa", cursive;
 }
 
 .subhead {
   margin-bottom: 2em;
+}
+
+.subhead-buttons {
+  margin-bottom: 1rem;
+}
+
+.subhead-buttons a {
+  margin: 0.6rem 0;
 }
 
 .work-container {
@@ -202,10 +219,11 @@ h3 {
   display: block;
   color: black;
   border-radius: 20px;
-  padding: 0.5em;
+  padding: 1rem 0.5em;
   text-decoration: none;
-  font-size: 1.1em;
-  margin: 1% auto 7%;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 1% auto 1%;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
@@ -502,10 +520,6 @@ textarea.message-form {
     margin-bottom: 5%;
   }
 
-  .cta {
-    margin-bottom: 10%;
-  }
-
   .work-container {
     margin: 0;
   }
@@ -549,11 +563,32 @@ textarea.message-form {
     display: flex;
   }
 
+  .profile figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+  }
+
+  .profile h1 {
+    font-size: 5em;
+  }
+
+  .fa-github,
+  .fa-linkedin {
+    font-size: 75px;
+  }
+
   .cta {
     width: 50%;
     font-size: 1.5em;
   }
 
+  .subhead-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .profile figure img {
     width: 30%;
   }
@@ -579,10 +614,6 @@ textarea.message-form {
 
   h1 {
     font-size: 4em;
-  }
-
-  .cta {
-    margin-bottom: 5%;
   }
 
   .work-container ul {
