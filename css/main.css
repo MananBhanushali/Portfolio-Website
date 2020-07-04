@@ -142,6 +142,7 @@ h1 {
 
 .work-container h1 {
   transform: skewY(2deg);
+  font-family: "Comfortaa", cursive;
 }
 
 .work-container ul li {
@@ -180,6 +181,10 @@ h1 {
 
 .skills-container ul li {
   margin: 0 3em 3em;
+}
+
+.skills-container h3 {
+  font-family: "Comfortaa", cursive;
 }
 
 figure {
@@ -313,6 +318,7 @@ nav ul li a:hover {
 .contact-section h1 {
   text-align: center;
   color: black;
+  font-family: "Comfortaa", cursive;
 }
 
 .border {
@@ -362,6 +368,7 @@ textarea.message-form {
   background: gainsboro;
   color: black;
   font-family: montserrat;
+  font-weight: bold;
   padding: 12px 50px;
   border-radius: 20px;
   cursor: pointer;
@@ -510,18 +517,22 @@ textarea.message-form {
     display: none;
   }
 
-  h1 {
+  .profile h1 {
     font-size: 3em;
     margin: 0;
   }
 
-  .subhead {
+  h1 {
+    font-size: 3em;
+  }
+
+  .subhead-buttons {
     font-size: 1.4em;
-    margin-bottom: 5%;
+    margin-bottom: 2em;
   }
 
   .work-container {
-    margin: 0;
+    margin-top: 1em;
   }
 
   .work-container ul li {
@@ -541,15 +552,15 @@ textarea.message-form {
 }
 
 @media only screen and (min-width: 875px) {
-  .subhead {
-    margin-bottom: 5%;
+  .subhead-buttons {
+    margin-bottom: 3em;
   }
 
   .logo {
     width: 60px;
   }
 
-  .work-container ul {
+  .work-container .work-container ul {
     margin: 0 0 4% 0;
   }
 
@@ -567,7 +578,7 @@ textarea.message-form {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5rem;
+    margin: 5em auto 2em;
   }
 
   .profile h1 {
@@ -590,7 +601,7 @@ textarea.message-form {
     align-items: center;
   }
   .profile figure img {
-    width: 30%;
+    width: 400px;
   }
 
   .skills-container ul {
@@ -674,6 +685,10 @@ textarea.message-form {
 @media only screen and (min-width: 1600px) {
   .container {
     width: 70%;
+  }
+
+  .profile {
+    padding: 4em;
   }
 
   .profile figure img {
