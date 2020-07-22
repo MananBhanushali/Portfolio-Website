@@ -11,7 +11,6 @@ A website that showcases my frontend development work.
 - HTML
 - CSS
 - JavaScript
-- Netlify
 
 ## Contact Me
 Email: alex@grattan.me
