@@ -9,6 +9,7 @@ A website that showcases my frontend development work.
 
 ## Contact Me
 Email: alex@grattan.me
+<br>
 LinkedIn: https://www.linkedin.com/in/alexander-grattan-11a187149/
 
 ## Liscense
