@@ -8,10 +8,10 @@ A website that showcases my frontend development work.
 </p>
 
 ## Tools Used
--HTML
--CSS
--JavaScript
--Netlify
+- HTML
+- CSS
+- JavaScript
+- Netlify
 
 ## Contact Me
 Email: alex@grattan.me
