@@ -105,6 +105,7 @@ h1 {
 }
 
 .work-container {
+  position: relative;
   width: 100%;
   background: gainsboro;
   margin-top: 15%;
@@ -165,9 +166,45 @@ h1 {
     0 100px 80px rgba(0, 0, 0, 0.07);
 }
 
+figure {
+  position: relative;
+}
+
+.left-work-btn {
+  position: absolute;
+  bottom: 50px;
+  left: 5px;
+}
+
+.right-work-btn {
+  position: absolute;
+  bottom: 50px;
+  right: 5px;
+}
+
+figure button {
+  cursor: pointer;
+  transform: scale(0);
+  font-weight: bold;
+  font-family: "Montserrat", Tahoma, Geneva, Verdana, sans-serif;
+  outline: none;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  width: 100px;
+  height: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
 .work-container figure:hover img {
   transform: scale(1.1);
   filter: grayscale(0) blur(0);
+}
+
+.work-container figure:hover button {
+  transform: scale(1);
+  filter: drop-shadow(0 0 0.5rem black);
 }
 
 .work-list:hover figure:not(:hover) img {
