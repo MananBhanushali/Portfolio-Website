@@ -217,8 +217,8 @@ figure button {
 }
 
 .skills-container ul li {
-  margin: 0 5em 3em;
-  width: 400px;
+  margin: 0 auto 2em;
+  width: 300px;
 }
 
 .skills-container h3 {
@@ -677,6 +677,11 @@ textarea.message-form {
 
   .work-container figure img {
     width: 250px;
+  }
+
+  .skills-container ul li {
+    margin: 0 auto 2em;
+    width: 375px;
   }
 
   nav ul {
