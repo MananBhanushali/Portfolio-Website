@@ -210,7 +210,7 @@ figure button {
 }
 
 .work-list:hover figure:not(:hover) img {
-  filter: grayscale(100%) blur(2px);
+  filter: grayscale(100%) blur(1px);
 }
 
 .skills-container {
