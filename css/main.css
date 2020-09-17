@@ -197,6 +197,7 @@ figure button {
   width: 100px;
   height: 50px;
   transition: all 0.3s ease-in-out;
+  filter: drop-shadow(0 0 0.5rem black);
 }
 
 .work-container figure:hover img {
@@ -206,11 +207,10 @@ figure button {
 
 .work-container figure:hover button {
   transform: scale(1);
-  filter: drop-shadow(0 0 0.5rem black);
 }
 
 .work-list:hover figure:not(:hover) img {
-  filter: grayscale(100%) blur(5px);
+  filter: grayscale(100%) blur(2px);
 }
 
 .skills-container {
