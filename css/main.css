@@ -186,6 +186,13 @@ h1 {
 
 figure {
   position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.work-container figure {
+  width: 275px;
+  margin: auto;
 }
 
 .left-work-btn {
@@ -240,11 +247,6 @@ figure button {
 .skills-container h3 {
   font-family: "Comfortaa", cursive;
   font-size: 2em;
-}
-
-figure {
-  margin: 0;
-  padding: 0;
 }
 
 figcaption a {
@@ -618,7 +620,7 @@ textarea.message-form {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5em auto 2em;
+    margin: 5em 0 2em;
   }
 
   .profile h1 {
@@ -666,6 +668,10 @@ textarea.message-form {
   .cta {
     width: 50%;
     font-size: 1.5em;
+  }
+
+  .work-container figure {
+    width: unset;
   }
 
   .subhead-buttons {
