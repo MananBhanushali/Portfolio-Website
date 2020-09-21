@@ -21,7 +21,7 @@ ul {
 }
 
 i {
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease;
 }
 
 .fa-github,
@@ -346,8 +346,8 @@ nav ul li a {
   width: 100%;
   background-color: silver;
   padding: 1em 2em;
-  -webkit-transition: 0.3s ease-in-out 0s;
-  transition: 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
 }
 
 nav ul li a:hover {
@@ -744,8 +744,7 @@ textarea.message-form {
 
   nav ul li a:hover {
     background-color: inherit;
-    font-size: 1.1em;
-    font-weight: bold;
+    transform: scale(1.1);
   }
 
   .scroll {
