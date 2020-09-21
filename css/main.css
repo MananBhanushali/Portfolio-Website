@@ -209,25 +209,21 @@ figure {
 
 figure button {
   cursor: pointer;
-  transform: scale(0);
   font-weight: bold;
   font-family: "Montserrat", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.8rem;
   outline: none;
   border: none;
   background-color: black;
   color: white;
   border-radius: 15px;
-  width: 100px;
+  width: 75px;
   height: 50px;
   transition: all 0.3s ease;
 }
 
 .work-container figure:hover img {
   filter: grayscale(0);
-}
-
-.work-container figure:hover button {
-  transform: scale(1);
 }
 
 .work-list:hover figure:not(:hover) img {
@@ -633,6 +629,16 @@ textarea.message-form {
 
   .work-container .work-container ul {
     margin: 0 0 4% 0;
+  }
+
+  figure button {
+    transform: scale(0);
+    width: 100px;
+    height: 50px;
+  }
+
+  .work-container figure:hover button {
+    transform: scale(1);
   }
 
   .skills-container ul {
