@@ -175,14 +175,13 @@ h1 {
 .work-container figure img {
   width: 275px;
   margin-top: 1em;
-  filter: grayscale(0) blur(0);
   border-radius: 10px;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
     0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035),
     0 22.3px 17.9px rgba(0, 0, 0, 0.042), 0 41.8px 33.4px rgba(0, 0, 0, 0.05),
     0 100px 80px rgba(0, 0, 0, 0.07);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 figure {
@@ -213,12 +212,11 @@ figure button {
   border-radius: 15px;
   width: 100px;
   height: 50px;
-  transition: all 0.3s ease-in-out;
-  filter: drop-shadow(0 0 0.5rem black);
+  transition: all 0.3s ease;
 }
 
 .work-container figure:hover img {
-  filter: grayscale(0) blur(0);
+  filter: grayscale(0);
 }
 
 .work-container figure:hover button {
@@ -226,7 +224,7 @@ figure button {
 }
 
 .work-list:hover figure:not(:hover) img {
-  filter: grayscale(100%) blur(1px);
+  filter: grayscale(100%);
 }
 
 .skills-container {
