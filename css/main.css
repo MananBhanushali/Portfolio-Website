@@ -166,9 +166,7 @@ h1 {
 }
 
 .work-container ul li {
-  margin-bottom: 3em;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 3em;
   padding: 0 0.5em;
 }
 
@@ -182,6 +180,7 @@ h1 {
     0 100px 80px rgba(0, 0, 0, 0.07);
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  overflow: visible;
 }
 
 figure {
@@ -263,6 +262,7 @@ h3 {
 
 .skills {
   font-size: 1em;
+  text-align: left;
 }
 
 .specific-skills {
@@ -796,6 +796,10 @@ textarea.message-form {
 
   .skills-container {
     padding: 6em 0 4em;
+  }
+
+  .skills-container ul li {
+    width: 500px;
   }
 
   h2 {
