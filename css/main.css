@@ -172,7 +172,6 @@ h1 {
 
 .work-container figure img {
   width: 275px;
-  margin-top: 1em;
   border-radius: 10px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -191,7 +190,7 @@ figure {
 
 .work-container figure {
   width: 275px;
-  margin: auto;
+  margin: 1em auto;
   overflow: visible;
 }
 
@@ -787,7 +786,6 @@ textarea.message-form {
 
   .work-container figure img {
     width: 350px;
-    margin-top: 2em;
   }
 
   .work-container ul li p,
